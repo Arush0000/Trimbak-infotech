@@ -1,0 +1,137 @@
+.Queryform {
+  height: auto;
+  padding: 110px 0px;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+}
+.main {
+  height: 38rem;
+  width: 77%;
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  background: transparent;
+  box-shadow: 0 8px 32px 0 rgba(27, 30, 83, 0.37);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+
+  // ---------------
+  .left {
+    height: 100%;
+    width: 52%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: darkgray;
+    .leftHeading {
+      font-size: 2.7rem;
+      font-family: "Copperplate Gothic";
+      color: #dd3aeb;
+      background-color: #222122;
+      padding: 27px 0px 10px 47px;
+    }
+    .para {
+      font-size: 1.2rem;
+      padding-left: 20px;
+      padding-top: 12px;
+      color: black;
+      padding-bottom: 43px;
+    }
+  }
+  .con-box {
+    // margin-top: 76px;
+
+    margin-left: 24px;
+    h3,
+    h4 {
+      font-size: 1.8rem;
+      font-variant: all-petite-caps;
+    }
+  }
+}
+.block {
+  display: none;
+}
+// -------------
+.right3{
+  height: 100%;
+  width: 70%;
+  
+ 
+
+  .form1 {
+    width: 80%;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 63px;
+    gap: 30px;
+    padding-left: 5rem;
+  padding-top: 6rem;
+    textarea,
+    input {
+      padding: 12px;
+      border: none;
+      border-bottom: 1px solid;
+      outline: none;
+      background: transparent;
+      font-size: 1.01rem;
+      color: rgb(191, 66, 225);
+    }
+  }
+}
+
+// ------media Queries------
+@media (max-width: 1188px) {
+  .main {
+    .left {
+      .para {
+        font-size: 1.1rem;
+        padding-left: 20px;
+        padding-top: 17px;
+        color: black;
+        padding-bottom: 17px;
+      }
+      .leftHeading {
+        font-size: 2rem;
+        padding-bottom: 4px;
+      }
+      .con-box {
+      }
+    }
+    .form {
+      width: 21rem;
+    }
+  }
+}
+@media (max-width: 1002px) {
+  .main {
+    height: 40rem;
+
+    .left {
+      height: 100%;
+      width: 100%;
+    
+      .para {
+        font-size: 1.3rem;
+        padding-left: 20px;
+        padding-top: 33px;
+        color: black;
+        padding-bottom: 17px;
+      }
+      .leftHeading {
+        font-size: 3rem;
+        padding-bottom: 16px;
+      }
+      .con-box {
+      }
+    }
+
+    .right3 {
+      display: none;
+    }
+  }
+  .block {
+    display: block;
+    padding-top: 12px;
+    
+  }
+}

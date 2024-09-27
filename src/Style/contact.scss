@@ -1,0 +1,55 @@
+.contact {
+  height: 33rem;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.539);
+  position: relative;
+  .border {
+    height: 16rem;
+    background: #166678;
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    .info{
+        height: 135%;
+        width: 77%;
+        background: rgba(255, 255, 255, 0.37);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.1px);
+        -webkit-backdrop-filter: blur(5.1px);
+        border: 1px solid rgba(255, 255, 255, 0.43);
+        position: absolute;
+        left: 11.5rem;
+        bottom: -3rem;
+        display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  align-items: center;
+        h2{
+          font-size: 3rem;
+  color: black;
+  text-align: center;
+  margin-top: 4rem;
+  padding-left: 4rem;
+        }
+        .detail{
+          display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  p{
+    color: black;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 400;
+  svg{
+    padding-top: 2px;
+  padding-right: 13px;
+}
+  }
+  }
+        }
+    }
+  }
+

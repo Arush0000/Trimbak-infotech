@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: rgb(205, 89, 240);
+    color: aliceblue;
+}

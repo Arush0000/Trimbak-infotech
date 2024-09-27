@@ -1,0 +1,51 @@
+.About{
+    background: #acabab;
+  height: auto;
+  width: 100%;
+  .About-box{
+    width: 75%;
+  margin: auto;
+  padding: 3rem 0px;
+  h1{
+    font-size: 3rem;
+  padding-bottom: 2rem;
+  font-family: "Copperplate Gothic";
+  color: #491e7d;
+  }
+  p{
+    line-height: 25px;
+  font-size: 1.04rem;
+  padding-bottom: 1rem;
+  color: rgb(16, 16, 16);
+  font-weight: 600;
+  font-family:"Comic Sans MS";
+  }
+  }
+  .btn-box{
+    height: 3rem;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 12px;
+  width: 16rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 12px;
+  .color{
+    min-width: 5rem;
+  height: 100%;
+  background: aqua;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg{
+
+  font-size: 1.4rem;
+  }
+  }
+  .content{
+    font-size: 1.1rem;
+   
+  }
+  }
+}

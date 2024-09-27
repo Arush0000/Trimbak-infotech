@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+   
+  .card{
+    height: 270px;
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  width: 372px;
+  border-radius: 20px;
+  box-shadow: rgba(47, 2, 249, 0.797) 0px 1px 2px 0px, rgba(105, 14, 110, 0.15) 0px 2px 6px 2px;
+  .card_box{
+    padding: 16px;
+  }
+}
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: transform 150ms ease-in-out;
+    
+}
+.card-description::selection{
+    background-color: #dd3aeb;
+}

@@ -1,0 +1,72 @@
+.client {
+  background-color: lightgray;
+  h1 {
+    color: #491e7d;
+    font-family: "Copperplate Gothic";
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 0px;
+    padding-top: 29px;
+  }
+  .p1{
+    font-family:"Comic Sans MS";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+  padding: 18px 0px;
+  text-align: center;
+  }
+  .about {
+    font-family:"Comic Sans MS";
+    font-size: 1.16rem;
+    line-height: 33px;
+    word-spacing: 1px;
+    color: black;
+    max-width: 120rem;
+    margin-right: 54px;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+.right2 img {
+  max-height: 40px;
+
+}
+.Heading{
+   
+  font-size: 2.5rem;
+  color: #491e7d;
+  font-family: "Copperplate Gothic";
+  font-weight: 600;
+  margin-top: 31px;
+}
+
+.imgs{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0 8px 32px 0 rgba(27, 30, 83, 0.37);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 1px solid transparent;
+
+  padding: 12px;
+  border-radius: 50%;
+  min-width: 93px;
+  min-height: 95px;
+  animation: imgup 0.8s linear infinite alternate;
+}
+@keyframes imgup {
+  to{
+    transform: translateY(-14px);
+  }
+}
+.but-on{
+  padding-top: 27px;
+}
+

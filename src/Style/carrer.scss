@@ -1,0 +1,56 @@
+.main1 {
+  height: 45rem;
+  display: flex;
+  background-color: rgb(205, 204, 204);
+  .leftSection {
+    width: 52rem;
+
+    .pic {
+      height: 84%;
+      width: 50%;
+      margin-left: 11rem;
+    }
+  }
+  .rightSection {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+
+    .headingmain {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 38rem;
+      margin-top: 12rem;
+      margin-left: 9rem;
+      h2 {
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-left: 12rem;
+  margin-top: 44px;
+  gap: 14px;
+}.main2{
+  padding-top: 27px;
+.part2 {
+  .left {
+    width:fit-content ;
+    margin-right: 65px;
+    .about {
+      color: black;
+      font-size: 1.09rem;
+      font-family:"Comic Sans MS";
+      line-height: 1.5;
+    }
+  }
+}
+}

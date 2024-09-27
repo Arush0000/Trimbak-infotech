@@ -1,0 +1,28 @@
+.left-box1 {
+  height: 100%;
+  width: 54.7%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  border-radius: 16px 0px 0px 16px;
+  p {
+    padding: 37px;
+  }
+  h2 {
+    font-size: 3rem;
+    padding-left: 40px;
+    padding-bottom: 25px;
+  }
+}
+.main-box {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  border-radius: 16px;
+  margin: 3rem 0rem;
+}
+img {
+  border-radius: 0px 16px 16px 0px;
+}
